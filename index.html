@@ -1,0 +1,63 @@
+
+<!DOCTYPE html>
+<html lang="cs">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Cinefy</title>
+  <link rel="stylesheet" href="style.css">
+  <link rel="manifest" href="manifest.json">
+</head>
+<body>
+  <header>
+    <div class="logo">Cinefy</div>
+    <nav>
+      <a href="#home">Domů</a>
+      <a href="#series">Seriály</a>
+      <a href="#about">O nás</a>
+    </nav>
+  </header>
+
+  <main id="content">
+    <!-- Domů -->
+    <section id="home">
+      <h1>Vítejte v Cinefy!</h1>
+      <p>Ukázková videa přímo v aplikaci:</p>
+      <div class="video-list">
+        <div class="video-item">
+          <h3>Ukázka 1</h3>
+          <video controls>
+            <source src="https://www.w3schools.com/html/mov_bbb.mp4" type="video/mp4">
+          </video>
+        </div>
+        <div class="video-item">
+          <h3>Ukázka 2</h3>
+          <video controls>
+            <source src="https://www.w3schools.com/html/movie.mp4" type="video/mp4">
+          </video>
+        </div>
+        <div class="video-item">
+          <h3>Ukázka 3</h3>
+          <video controls>
+            <source src="https://www.w3schools.com/html/mov_bbb.mp4" type="video/mp4">
+          </video>
+        </div>
+      </div>
+    </section>
+
+    <!-- Seriály -->
+    <section id="series">
+      <h1>Seriály</h1>
+      <p>Zde můžete přidávat nové epizody a seriály.</p>
+    </section>
+
+    <!-- O nás -->
+    <section id="about">
+      <h1>O nás</h1>
+      <p>Cinefy je tvoje vlastní filmová aplikace – sleduj, přehrávej a bav se!</p>
+    </section>
+  </main>
+
+  <script src="app.js"></script>
+</body>
+</html>

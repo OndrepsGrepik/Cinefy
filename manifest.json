@@ -1,0 +1,16 @@
+
+{
+  "name": "Cinefy",
+  "short_name": "Cinefy",
+  "start_url": ".",
+  "display": "standalone",
+  "background_color": "#001f4d",
+  "theme_color": "#00ccff",
+  "icons": [
+    {
+      "src": "icons/icon-192.png",
+      "sizes": "192x192",
+      "type": "image/png"
+    }
+  ]
+}
